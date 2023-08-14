@@ -6,9 +6,15 @@ This extension allows you to easily add and sort Custom Labels from Salesforce i
 
 Run command `SFDX BTC: Create Custom Label` to run extension.
 
-<img src="images/custom-labels.png" />
+![SFDX BTC Screenshoot](images/custom-labels.png)
 
-Extension has to be run in project which contains at least one CustomLabels.labels-meta.xml file.
-If more than one files named CustomLabels.labels-meta.xml are detected, you'll see additional select input on the top.
+Extension has to be run in project which contains at least one file with labels-meta.xml extension.
 
-While using the extension - custom labels will be automatically sorted in your file.
+## Features
+
+![SFDX BTC Screenshoot](images/btc-labels.gif)
+
+- If more than one files which name ends with labels-meta.xml are detected, you'll see additional select input on the top.
+- You can select sort options: your new custom label can be added to your Custom Label file in alphabetical order or on the end of the file.
+- Click `Add label` to add the custom label to selected file.
+- Click `Add and deploy` to add the custom label to selected file and to deploy that custom label to environment which you are authenticated to.
